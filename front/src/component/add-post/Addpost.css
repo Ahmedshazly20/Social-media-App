@@ -1,0 +1,99 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto ;
+    font-size: 18px;
+}
+
+.header-POST{
+    margin: 5px;
+    border: 1px solid;
+    padding: 4px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 28px;
+    color: #1565c0;
+    font-family: 'Circular-Loom';
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #fff;
+    padding: 14px 28px;
+    border-radius: 3px;
+    width: 600px;
+    height: 500px;
+    min-width: 300px;
+}
+
+.close-modal {
+    position: absolute;
+    margin-right: auto;
+    padding: 5px 7px;
+    right: -35px;
+    top: -22px;
+}
+.x-header{
+    display: flex;
+}
+
+.high{
+    height: 100px;
+}
+
+
+
+/* START FOR UPLOAD FILE  */
+
+.btn-warning{
+    position: relative;
+    padding: 11px 16px;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #1976D2;
+    border: 0;
+    transition: 0.2s;
+    overflow: hidden; 
+    margin-bottom:10px; 
+  }
+  
+  .btn-warning input[type = "file"]{
+    cursor: pointer;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    transform: scale(3);
+    opacity: 0;
+  }
+  
+  .btn-warning:hover{
+    background-color: #d9a400;
+  }
+
+
+  /* START FOR UPLOAD FILE  */

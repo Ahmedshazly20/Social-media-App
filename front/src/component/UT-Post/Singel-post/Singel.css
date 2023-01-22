@@ -1,0 +1,30 @@
+
+.SinglePost{
+    max-width: 150vh;
+    display:block;
+    text-align:center;
+    padding:16px;
+    border:3px solid #007bf6;
+    margin: 60px auto;
+  }
+  .SinglePost h2{
+    font-size: 2.188rem;
+    line-height:0.714em;
+    font-weight: 700;
+  
+  }
+  .SinglePost span{
+    display:block;
+    opacity: .5;
+    margin: 10px auto;
+  }
+  .SinglePost img{
+    max-width: 88vh;
+  max-height: 88vh;
+  }
+  .SinglePost p{
+    margin:20px 20px ;
+    font-size: 18px;
+    
+    line-height: 27px;
+  }
